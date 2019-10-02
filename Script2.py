@@ -39,6 +39,7 @@ def plot_output(ask_user):
     print "Try again."
 #call the function with arguement as ask_user
 plot_output(ask_user)
+# here is where we get an EOF error, except the else past of the if statement works 
 
 #_____________________________________
 #new code
