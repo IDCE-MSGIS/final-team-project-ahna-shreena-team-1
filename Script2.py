@@ -4,27 +4,30 @@
 
 # ahna's lab 1 code
 
-length = 50
-width = 20
-area = (length * width) 
-#print (area)
-print "plot_length is: ", + length, "feet"
-print "plot_width is: ", + width, "feet"
+area_list = [100, 200, 300]
+print "Plot 1 area is: ", + area_list[0]
+print "Plot 2 area is: ", + area_list[1]
+print "Plot 3 area is: ", + area_list[2]
+#print "plot_length is: ", + length, "feet"
+#print "plot_width is: ", + width, "feet"
 
-#now convert to inches bc rainwater is measured in inches
+#now convert to inches because rainwater is measured in inches
 # Since you are converting area from feet sq to inches sq, you want to multiply the area value by 144 instead of 12.
-area_inches = area * 144
-#print (area_inches)
+area_inches = [i * 144 for i in area_list]
+print (area_inches)
 
 rainfall_inches = 1
-runoff_inches = area_inches * rainfall_inches
-print "rainfall_inches is: ", + runoff_inches
+runoff_inches = [i * rainfall_inches for i in area_inches]
+print runoff_inches
 
 #convert cubic inches to gallons: divide the volume value by 231
 
-runoff_gallons = runoff_inches/ 231
-print "runoff_gallons is: ", +  runoff_gallons
+runoff_gallons = [i/ 231 for i in runoff_inches]
+#print "runoff_gallons is: ", +  runoff_gallons
+print runoff_gallons
 
+
+#_____________________________________
 #new code
 area = [100,200,300]
 area_inches = [i * 12 for i in area]
