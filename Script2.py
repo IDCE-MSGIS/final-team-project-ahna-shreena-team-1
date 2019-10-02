@@ -21,11 +21,24 @@ runoff_inches = [i * rainfall_inches for i in area_inches]
 print runoff_inches
 
 #convert cubic inches to gallons: divide the volume value by 231
-
 runoff_gallons = [i/ 231 for i in runoff_inches]
 #print "runoff_gallons is: ", +  runoff_gallons
 print runoff_gallons
 
+#get user input for which plot runoff to output
+ask_user= str(input('Type which plot you would like to know the runoff for. Options are: Plot 1, Plot 2, Plot 3. ' )) 
+# define function for what to do with the user's input
+def plot_output(ask_user):
+  if ask_user == "Plot 1": 
+    print "Plot 1 runoff is: ", + runoff_gallons[0] 
+  elif ask_user == "Plot 2":
+    print "Plot 2 runoff is: ", + runoff_gallons[1]
+  elif ask_user == "Plot 3":
+    print "Plot 3 runoff is: ", + runoff_gallons[2]
+  else: #for values less than 32
+    print "Try again."
+#call the function with arguement as ask_user
+plot_output(ask_user)
 
 #_____________________________________
 #new code
