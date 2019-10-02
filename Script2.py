@@ -1,8 +1,8 @@
 # Ahna Knudsen and Shreena Pyakurel
 # Final Project Part 2
+# due: October 6, 2019
 # time: 
 
-# ahna's lab 1 code
 
 area_list = [100, 200, 300]
 print "Plot 1 area is: ", + area_list[0]
