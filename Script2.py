@@ -1,4 +1,6 @@
-# Place necessary comments and code here. 
+# Ahna Knudsen and Shreena Pyakurel
+# Final Project Part 2
+# time: 
 area = [100,200,300]
 area_inches = [i * 12 for i in area]
 print(area_inches)
