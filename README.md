@@ -31,5 +31,19 @@ Remember to update the Script1.py file to include comments and documentation in 
 For this script, you will complete the assignment that you have proposed, which involves modifying a previous exercise. Remember to update the Script2.py file to include comments and documentation in your script to tell me what it’s doing!
 
 ## Final Project: Documentation
-### Changing this README
+
 Your write-up will be here, on this README page. You will need to edit this page with your new text: you do **not** need to keep these instructions on your README! 
+
+For script 1, you can explain the purpose of the script, how well it functioned (or if it didn’t), and whether or not you might use something like this in the future.
+### Script 1: 
+
+For script 2, clearly explain what the goal of the script is; what inputs are required; what outputs are expected. Ideally, you’d have a real-life scenario in hand (e.g. “by allowing user input for the script to _______, we ensure that it can be easily run without a user needing to program in Python.”). That is only an example but should give you an idea for what I’m looking for. Additionally, you should describe the process of writing the script: was it easy, hard, what challenges or errors did you face and how did you resolve the issue? If you use any resources to help write your code (e.g. Stackoverflow.com; the text book; etc.) then please describe these in the body of the text. E.g. “After repeated syntax errors, I checked Stackoverflow.com to find that…”  If you can link to a specific thread or page that would be great.
+### Script 2: 
+Our goal for the script of Part 2 was to recreate the first python lab with adding user input, for loops, and if statements. The lab involved calculating the volume of runoff for a plot of paved land (i.e. no absorbtion) in a 1 inch rainstorm in Kenya. Our project modified the lab by calculating runoff for multiple plots of land using for loops. We also converted between feet squared, inches squared, and gallons. At the end we asked for the user to type the plot they want to know runoff information for. Using this code, runoff could be calculated for any area and amount of rainfall. This is helpful for storing calculations and information about many different plots of land. 
+Writing the code was straightforward for the most part. If was helpful to use incremental development and execute print statements after new variables, for loops, and if statements. This helped to identify what was working and navigate where the problems were. We struggled with doing conversions on the lists with for loops. Using Stackoverflow (I forget the link???) we found that we could use for loops in defining the variable to clean up the code and get it to apply the operation on each index. 
+
+
+This will require the user to interact with the code and an if statement for which units to output. In order to complete these steps, we will use incremental testing to build our problem solving and debugging skills. 
+
+
+
