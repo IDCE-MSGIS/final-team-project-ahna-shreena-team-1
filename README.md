@@ -1,5 +1,5 @@
 ## Final Project 
-## Ahna and Shreena Pyakurel 
+## Ahna Knusden and Shreena Pyakurel 
 ## Oct/6/2019
 ## Time: 
 #### Final Project: Documentation
