@@ -16,7 +16,6 @@ from bs4 import BeautifulSoup
 forecast = []
 
 ## Provide the latitude and longitude for the location you would like to check the forecast for
-## Lat/lon in decimal degrees provided for Worcester, MA
 #add in user input to specify latitude and longitude
 #use the str function to convert latitude values into strings type 
 lat = str(input("Latitiude of your choice within the US: "))
