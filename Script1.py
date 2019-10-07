@@ -62,4 +62,5 @@ for day in forecast:
   day = day.replace('Chance', 'Chance ' )
   day = day.replace('Cloudy', 'Cloudy ')
   day = day.replace('Mostly', 'Mostly ')
+  day= day.upper() #capitalize every letter 
   print day
