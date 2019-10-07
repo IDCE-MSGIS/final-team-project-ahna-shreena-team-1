@@ -1,8 +1,7 @@
-## Final Project 
-## Ahna Knusden and Shreena Pyakurel 
-## Oct/6/2019
-## Time: 75 minutes 
-#### Final Project: Documentation
+## Final Project Documentation  
+### Ahna Knusden and Shreena Pyakurel 
+### Oct/6/2019
+### Time: 75 minutes 
 
 ### Script 1 Project Description: Web-scraping Weather Forecast Information with Python
 The goal for part one of the lab was to modify an existing python code that web scrapes weather data from a library that was provided to us. The code that we were given took the latitude and longitude of Worcester, Massachusetts and scraped the web for the weather report of the following seven days. Our first goal for this project was to change the script so that the user had to type in a latitude and longitude of their choice instead of defining the latitude and longitude. We did this by using the raw.input function. After this, we used the str function to convert the latitude and longitude from float type data to a string type data. After the user input the desired coordinates, we checked if the URL existed online to ensure that the data we were scraping for actually existed. Next, the script extracted information from the National Weather Service using the beautiful soup library. Then after our information was scraped from the web, all of the formatting in the output was incorrectly displayed. This lead us to our next goal which was to clean up the code to make sure everything was spaced correctly and formatted in a way that was legible and visually pleasing. We utilized the .replace() function in a for-loop. Finally, we converted all of the characters to uppercase to fulfill one of the requirements. 
