@@ -1,6 +1,6 @@
 ## Final Project Documentation  
 ### Ahna Knusden and Shreena Pyakurel 
-### Oct/6/2019
+### October 6, 2019
 ### Time: 75 minutes 
 
 ### Script 1 Project Description: Web-scraping Weather Forecast Information with Python
