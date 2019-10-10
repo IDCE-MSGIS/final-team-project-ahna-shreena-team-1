@@ -49,4 +49,4 @@ def ask_user_():
     else:
         print 'Done' 
 # Call function     
-print ask_user_()
+ask_user_()
